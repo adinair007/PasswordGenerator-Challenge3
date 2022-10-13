@@ -21,10 +21,10 @@ if(length < 8 || length > 128) {
 }
 
 // Declaring user's preferences
-var hasUppercase = confirm("Does the desired password include an uppercase letter?");
-var hasLowercase = confirm("Does the desired password include a lowercase letter?");
-var hasNumbers = confirm("Does the desired password include a number?");
-var hasSpecial = confirm("Does the desired password include a special character");
+var hasUppercase = confirm("Should the password include an uppercase letter?");
+var hasLowercase = confirm("Should the password include a lowercase letter?");
+var hasNumbers = confirm("Should the password include a number?");
+var hasSpecial = confirm("Should the password include a special character");
 
 
 if (hasUppercase === false  &&  hasLowercase === false  &&  hasNumbers === false  &&  hasSpecial === false ) {
