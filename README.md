@@ -1,5 +1,8 @@
 # Password Generator
 
+Deployed Application Link: https://adinair007.github.io/PasswordGenerator-Challenge3/pswdgenerator.html
+
+
 Added and refactored code so when a NEW & SECURE password is needed:
 
 1. Clicking  the button to generate a password presents user with a series of prompts for password criteria
